@@ -1,9 +1,9 @@
-import { Home, Search, Library, PlusSquare, Heart } from 'lucide-react'
-import Link from 'next/link'
+import { Heart, Home, Library, PlusSquare, Search } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Sidebar() {
   return (
-    (<div className="w-64 bg-black p-6 flex flex-col">
+    <div className="w-64 bg-black p-6 flex flex-col">
       <div className="mb-8">
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Spotify.jpg-QEbS0OZkfj39g8nooEKquN9dETG6IT.jpeg"
@@ -45,7 +45,7 @@ export default function Sidebar() {
         <span className="mx-2">|</span>
         <a href="#" className="hover:underline">Privacy Policy</a>
       </div>
-    </div>)
+    </div>
   );
 }
 
