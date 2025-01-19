@@ -1,10 +1,10 @@
-import Sidebar from '../components/Sidebar'
-import MyExeterContent from '../components/MyExeterContent'
-
+import Sidebar from '../../components/Sidebar'
+import ExperienceContent from '../../components/ExperienceContent'
+import {experiences} from "../../experience"
 export default function MyExeterPage() {
   return (<>
     <Sidebar />
-    <MyExeterContent />
+    <ExperienceContent experience={experiences.myexeter}/>
   </>);
 }
 

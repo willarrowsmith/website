@@ -1,12 +1,12 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import PlayerControl from './components/PlayerControl'
+import PlayerControl from '../components/PlayerControl'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Spotify Clone',
-  description: 'A simple Spotify clone built with Next.js',
+  title: 'Will Arrowsmith Portfolio',
+  description: 'A simple portfolio built with Next.js',
 }
 
 export default function RootLayout({

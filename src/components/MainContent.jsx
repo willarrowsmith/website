@@ -37,6 +37,13 @@ const playlists = [
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
     href: "/depop"
   },
+  { 
+    id: 5, 
+    name: "Managed Personal E-commerce Store", 
+    description: "Depop",
+    imageUrl: "/depop.jpg",
+    href: "/depop"
+  },
 ]
 
 export default function MainContent() {
@@ -65,7 +72,7 @@ export default function MainContent() {
       </div>
       {/* Relevant Experience Grid */}
       <h3 className="text-xl font-bold mb-4">Relevant Experience</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
         {playlists.map((playlist) => (
           <div
             key={playlist.id}
@@ -75,7 +82,7 @@ export default function MainContent() {
                 <img
                   src={playlist.imageUrl || "/placeholder.svg"}
                   alt={playlist.name}
-                  className="w-full h-full object-cover" />
+                  className="aspect-square w-full h-full object-cover" />
               </div>
               <div className="p-4 flex-1 flex flex-col justify-between">
                 <div>
