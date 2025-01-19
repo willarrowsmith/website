@@ -5,7 +5,7 @@ const featuredPlaylist = {
   id: 0,
   name: "Hey Spotify Recruitment!",
   description: "I would love to be part of the band! Here is my demo tape of skills and experiences.",
-  imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Linkedin-hNhqwzB2yMa4gaKcwN7vKmJFrJ4eI7.jpeg"
+  imageUrl: "/will.jpg"
 }
 
 const playlists = [
