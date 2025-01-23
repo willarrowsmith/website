@@ -6,12 +6,12 @@ export default function PlayerControl() {
       className="h-20 bg-black border-t border-gray-800 flex items-center justify-between px-4">
       <div className="flex items-center space-x-4 w-1/4">
         <img
-          src="/placeholder.svg?height=56&width=56"
+          src="/michael.jpg"
           alt="Album cover"
           className="w-14 h-14" />
         <div>
-          <h4 className="text-sm font-semibold">Song Title</h4>
-          <p className="text-xs text-gray-400">Artist Name</p>
+          <h4 className="text-sm font-semibold">Workin' Day and Night</h4>
+          <p className="text-xs text-gray-400">Michael Jackson</p>
         </div>
       </div>
       <div className="flex flex-col items-center w-1/2">

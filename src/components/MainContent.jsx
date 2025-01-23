@@ -39,9 +39,9 @@ const playlists = [
   },
   { 
     id: 5, 
-    name: "Managed Personal E-commerce Store", 
-    description: "Depop",
-    imageUrl: "/depop.jpg",
+    name: "Music", 
+    description: "",
+    imageUrl: "/picture10.jpg",
     href: "/depop"
   },
 ]

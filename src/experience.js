@@ -69,16 +69,24 @@ export const experiences= {
     description: "Managed the development of internal pricing tools, optimizing pricing strategies and improving operational efficiency across multiple product lines.",
     timeline: [
       {
-        date: "Jun 2022",
-        learning: "Developed and implemented new pricing algorithm"
+        date: "October 2023",
+        learning: "Recognised the need for and developed a new pricing tool that saved the pricing team 455hrs/year"
       },
       {
-        date: "Aug 2022",
-        learning: "Reduced pricing decision time by 50% through automation"
+        date: "November 2023",
+        learning: "Was given responsibility of product managing the tool I had created along with several other digital pricing tools and systems"
       },
       {
-        date: "Oct 2022",
-        learning: "Expanded tool capabilities to support international markets"
+        date: "January 2024",
+        learning: "Managed a feature prioritisation roadmap, working with pricing managers and technical teams to align product development with business goals, optimize resource allocation, and ensure timely delivery of high-impact features."
+      },
+      {
+        date: "February-March 2024",
+        learning: "Worked with technical teams to deliver 10 key feature enhancements across the 5 systems"
+      },
+      {
+        date: "April 2024",
+        learning: "Due to success in Europe, my pricing tool was adopted by our US counterparts, saving their team a further 530hrs/yr"
       }
     ],
     skills: [
@@ -86,11 +94,11 @@ export const experiences= {
       "Data Analysis",
       "Strategic Planning",
       "Cross-functional Leadership",
-      "Technical Documentation",
+      "Feature Prioritisation",
       "Process Optimization"
     ],
-    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Intel.jpg-EajCfst7cSVAnnSjbIooUdcqiHcj3y.jpeg",
-    secondaryImage: "/placeholder.svg?height=300&width=300"
+    mainImage: "/intelgroup.jpg",
+    secondaryImage: "/inteldashboard.jpg"
   },
   depop: {
     title: "Managed Personal E-commerce Store",
