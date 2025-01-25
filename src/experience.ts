@@ -98,7 +98,7 @@ export const experiences: Record<string, Experience> = {
       "Process Optimization"
     ],
     mainImage: "/intelgroup.jpg",
-    secondaryImage: "/inteldashboard.jpg"
+    secondaryImage: "/Inteldashboard.jpg"
   },
   depop: {
     title: "Managed Personal E-commerce Store",

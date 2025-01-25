@@ -52,7 +52,7 @@ const playlists: {
     id: 5,
     name: "Music",
     description: "",
-    imageUrl: "/picture10.jpg",
+    imageUrl: "/Picture10.jpg",
     href: "/depop"
   },
 ] as const;
@@ -67,7 +67,7 @@ export default function MainContent() {
         <div
           className="bg-white bg-opacity-10 group rounded-md overflow-hidden flex items-center hover:bg-opacity-20 transition-all duration-200">
           <img
-            src={featuredPlaylist.imageUrl || "/placeholder.svg"}
+            src={featuredPlaylist.imageUrl}
             alt={featuredPlaylist.name}
             className="w-64 h-64 object-cover object-top" />
           <div className="p-6 flex-1">
@@ -91,7 +91,7 @@ export default function MainContent() {
             <Link href={playlist.href} className="contents">
               <div className="aspect-square w-full bg-black">
                 <img
-                  src={playlist.imageUrl || "/placeholder.svg"}
+                  src={playlist.imageUrl}
                   alt={playlist.name}
                   className="aspect-square w-full h-full object-cover" />
               </div>

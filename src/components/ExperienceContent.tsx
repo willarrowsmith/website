@@ -35,14 +35,14 @@ export default function ExperienceContent({ experience }: {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden">
             <img
-              src={experience.mainImage || "/placeholder.svg"}
+              src={experience.mainImage}
               alt="Main visual"
               className="w-full h-64 object-cover"
             />
           </div>
           <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden">
             <img
-              src={experience.secondaryImage || "/placeholder.svg"}
+              src={experience.secondaryImage}
               alt="Secondary visual"
               className="w-full h-64 object-cover"
             />

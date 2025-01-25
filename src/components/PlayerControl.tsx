@@ -7,7 +7,7 @@ const track: {
 } = {
   title: "Workin' Day and Night",
   artist: 'Michael Jackson',
-  albumCover: "/michael.jpg"
+  albumCover: "/Michael.jpg"
 } as const;
 
 export default function PlayerControl() {
