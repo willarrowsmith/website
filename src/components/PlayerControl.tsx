@@ -5,9 +5,9 @@ const track: {
   artist: string
   albumCover: string
 } = {
-  title: 'Song Title',
-  artist: 'Artist Name',
-  albumCover: '/placeholder.svg?height=56&width=56'
+  title: "Workin' Day and Night",
+  artist: 'Michael Jackson',
+  albumCover: "/michael.jpg"
 } as const;
 
 export default function PlayerControl() {

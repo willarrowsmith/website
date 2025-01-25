@@ -18,13 +18,13 @@ export default function Sidebar() {
           <span>Home</span>
         </Link>
         <Link
-          href="/search"
+          href="/"
           className="flex items-center space-x-2 text-gray-300 hover:text-white">
           <Search />
           <span>Search</span>
         </Link>
         <Link
-          href="/library"
+          href="/"
           className="flex items-center space-x-2 text-gray-300 hover:text-white">
           <Library />
           <span>Your Library</span>
