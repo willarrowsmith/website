@@ -43,7 +43,7 @@ export default function AboutContent() {
             <div className="space-y-6">
               <p className="text-gray-300 leading-relaxed">
                 I am a Product Manager with experience in both early-stage startups and large enterprises. Currently
-                pursuing my Master's in Computer Science at the University of Exeter, I combine technical knowledge with
+                pursuing my xxx in Computer Science at the University of Exeter, I combine technical knowledge with
                 business acumen to drive product innovation and growth.
               </p>
 
