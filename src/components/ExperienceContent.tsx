@@ -1,7 +1,7 @@
-import { CheckIcon } from "lucide-react"
+import { Check } from "lucide-react"
 import Link from "next/link"
 
-export type Experience = {
+export interface Experience {
   title: string
   company: string
   description: string
@@ -14,12 +14,14 @@ export type Experience = {
   secondaryImage: string
 }
 
-export default function ExperienceContent({ experience }: {
+interface ExperienceContentProps {
   experience: Experience
-}) {
+}
+
+export default function ExperienceContent({ experience }: ExperienceContentProps) {
   return (
     <div className="flex-1 overflow-y-auto bg-gradient-to-b from-blue-900 to-black p-8 pb-24">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-3xl font-bold">{experience.title}</h2>
@@ -31,33 +33,28 @@ export default function ExperienceContent({ experience }: {
           </Link>
         </div>
 
-        {/* Images Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden">
-            <img
-              src={experience.mainImage}
-              alt="Main visual"
-              className="w-full h-64 object-cover"
-            />
-          </div>
-          <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden">
-            <img
-              src={experience.secondaryImage}
-              alt="Secondary visual"
-              className="w-full h-64 object-cover"
-            />
-          </div>
-        </div>
-
-        {/* Content Grid */}
+        {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Main Content */}
-          <div className="lg:col-span-2">
-            <div className="bg-white bg-opacity-10 rounded-lg p-6 mb-6">
-              <h3 className="text-xl font-bold mb-4">About this Role</h3>
-              <p className="text-gray-300 leading-relaxed">
-                {experience.description}
-              </p>
+          {/* Left Column */}
+          <div className="lg:col-span-2 space-y-6">
+            {/* Horizontal Photo */}
+            <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden w-full">
+              <img
+                src={experience.mainImage || "/placeholder.svg"}
+                alt="Main visual"
+                className="w-full aspect-[16/9] object-cover"
+              />
+            </div>
+
+            {/* About Section */}
+            <div className="bg-white bg-opacity-10 rounded-lg p-6">
+              <h3 className="text-xl font-bold mb-4">Key Acheivements</h3>
+              <p
+                className="text-gray-300 leading-relaxed"
+                dangerouslySetInnerHTML={{
+                  __html: experience.description ?? "",
+                }}
+              />
             </div>
 
             {/* Timeline */}
@@ -78,17 +75,29 @@ export default function ExperienceContent({ experience }: {
             </div>
           </div>
 
-          {/* Skills Checklist */}
-          <div className="bg-white bg-opacity-10 rounded-lg p-6 h-fit">
-            <h3 className="text-xl font-bold mb-4">Skills Applied</h3>
-            <ul className="space-y-3">
-              {experience.skills.map((skill, index) => (
-                <li key={index} className="flex items-center text-gray-300">
-                  <CheckIcon className="w-5 h-5 text-green-500 mr-2" />
-                  {skill}
-                </li>
-              ))}
-            </ul>
+          {/* Right Column */}
+          <div className="space-y-6">
+            {/* Skills Section */}
+            <div className="bg-white bg-opacity-10 rounded-lg p-6">
+              <h3 className="text-xl font-bold mb-4">Skills Applied</h3>
+              <ul className="space-y-3">
+                {experience.skills.map((skill, index) => (
+                  <li key={index} className="flex items-center text-gray-300">
+                    <Check className="w-5 h-5 text-green-500 mr-2" />
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Vertical Photo */}
+            <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden w-full mx-auto">
+              <img
+                src={experience.secondaryImage || "/placeholder.svg"}
+                alt="Secondary visual"
+                className="w-full aspect-[9/16] object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

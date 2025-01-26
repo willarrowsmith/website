@@ -128,5 +128,70 @@ export const experiences: Record<string, Experience> = {
     ],
     mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
     secondaryImage: "/placeholder.svg?height=300&width=300"
+  },
+  brightnetwork: {
+    title: "Managed Personal E-commerce Store",
+    company: "Bright Network",
+    description: "Successfully operated a personal e-commerce business, implementing effective marketing strategies and maintaining high customer satisfaction rates.",
+    timeline: [
+      {
+        date: "Mar 2022",
+        learning: "Established store and developed brand identity"
+      },
+      {
+        date: "May 2022",
+        learning: "Achieved top seller status through consistent growth"
+      },
+      {
+        date: "Jul 2022",
+        learning: "Implemented automated inventory management system"
+      }
+    ],
+    skills: [
+      "E-commerce Management",
+      "Customer Service",
+      "Inventory Management",
+      "Digital Marketing",
+      "Photography",
+      "Social Media Strategy"
+    ],
+    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
+    secondaryImage: "/placeholder.svg?height=300&width=300"
+  },
+  music: {
+    title: "Musical Interest",
+    company: "",
+    description: `
+    This is the description
+    <ul>
+  <li>Successfully operated a personal e-commerce business</li>
+  <li>Implemented effective marketing strategies</li>
+  <li>Maintained high customer satisfaction rates</li>
+</ul>
+    `,
+    timeline: [
+      {
+        date: "Mar 2022",
+        learning: "Established store and developed brand identity"
+      },
+      {
+        date: "May 2022",
+        learning: "Achieved top seller status through consistent growth"
+      },
+      {
+        date: "Jul 2022",
+        learning: "Implemented automated inventory management system"
+      }
+    ],
+    skills: [
+      "E-commerce Management",
+      "Customer Service",
+      "Inventory Management",
+      "Digital Marketing",
+      "Photography",
+      "Social Media Strategy"
+    ],
+    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
+    secondaryImage: "/placeholder.svg?height=300&width=300"
   }
 } as const;

@@ -58,9 +58,9 @@ const playlists: {
   { 
     id: 6, 
     name: "Music", 
-    description: "Bright Network",
+    description: "",
     imageUrl: "/bright.jpg",
-    href: "/depop"
+    href: "/music"
   },
   
 ]
