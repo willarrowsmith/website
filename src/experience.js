@@ -31,9 +31,9 @@ export const experiences= {
     secondaryImage: "/placeholder.svg?height=300&width=300"
   },
   myexeter: {
-    title: "Product Manager & UX Researcher",
+    title: "Product Manager & UX Researcher (MyExeter App)",
     company: "MyExeter",
-    description: "Spearheaded UX research initiatives and product development for the university's digital platform, enhancing student experience and administrative efficiency.",
+    description: "Supported Exeter’s end-to-end digital transformation, onboarding 20,000 students onto the universities new app, MyExeter, in the first two months. Conducted comprehensive user research with 200+ students, generating qualitative and quantitative insights to drive product feature refinement and user experience optimization. Collaborated with cross-functional teams to develop an AI-powered feedback feature to enhance student engagement. Managed digital content strategy across Canva and WordPress, promoting app adoption and supporting stakeholder communication. Diagnosed and resolved technical infrastructure issues, demonstrating problem-solving skills and commitment to maintaining seamless user experience.",
     timeline: [
       {
         date: "Sep 2022",
@@ -55,13 +55,13 @@ export const experiences= {
     skills: [
       "UX Research",
       "Data Analysis",
-      "Project Management",
+      "Product Management",
       "User Testing",
       "Interface Design",
       "Accessibility"
     ],
-    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Exeter.jpg-I1POZ9XrjHpxC3juzWiTSUxhKtryKr.jpeg",
-    secondaryImage: "/placeholder.svg?height=300&width=300"
+    mainImage: "/timetable.jpg",
+    secondaryImage: "/arrows.jpg"
   },
   intel: {
     title: "Product Manager (Pricing Tools)",

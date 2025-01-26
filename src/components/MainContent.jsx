@@ -11,7 +11,7 @@ const featuredPlaylist = {
 const playlists = [
   { 
     id: 1, 
-    name: "Co-Founder", 
+    name: "Co-Founder, Product Manager", 
     description: "PeerPitch",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PeerPitch-ntlm5UeqVfSKzy7lprEUp2La41pr9o.png",
     href: "/peerpitch"
@@ -39,11 +39,19 @@ const playlists = [
   },
   { 
     id: 5, 
-    name: "Music", 
-    description: "",
-    imageUrl: "/picture10.jpg",
+    name: "Coding", 
+    description: "Bright Network",
+    imageUrl: "/bright.jpg",
     href: "/depop"
   },
+  { 
+    id: 6, 
+    name: "Music", 
+    description: "Bright Network",
+    imageUrl: "/bright.jpg",
+    href: "/depop"
+  },
+  
 ]
 
 export default function MainContent() {
@@ -72,7 +80,7 @@ export default function MainContent() {
       </div>
       {/* Relevant Experience Grid */}
       <h3 className="text-xl font-bold mb-4">Relevant Experience</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
         {playlists.map((playlist) => (
           <div
             key={playlist.id}
