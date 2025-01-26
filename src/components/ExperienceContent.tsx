@@ -1,16 +1,30 @@
-import { Check } from 'lucide-react'
-import Link from 'next/link'
+import { CheckIcon } from "lucide-react"
+import Link from "next/link"
 
+export type Experience = {
+  title: string
+  company: string
+  description: string
+  timeline: {
+    date: string
+    learning: string
+  }[]
+  skills: string[]
+  mainImage: string
+  secondaryImage: string
+}
 
-export default function ExperienceContent({ experience }) {
+export default function ExperienceContent({ experience }: {
+  experience: Experience
+}) {
   return (
     <div className="flex-1 overflow-y-auto bg-gradient-to-b from-blue-900 to-black p-8 pb-24">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-3xl font-bold">{experience.title}</h2>
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="bg-green-500 text-black font-semibold py-2 px-4 rounded-full hover:bg-green-400 transition-colors duration-200"
           >
             Back to Home
@@ -20,16 +34,16 @@ export default function ExperienceContent({ experience }) {
         {/* Images Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden">
-            <img 
-              src={experience.mainImage || "/placeholder.svg"} 
-              alt="Main visual" 
+            <img
+              src={experience.mainImage}
+              alt="Main visual"
               className="w-full h-64 object-cover"
             />
           </div>
           <div className="bg-white bg-opacity-10 rounded-lg overflow-hidden">
-            <img 
-              src={experience.secondaryImage || "/placeholder.svg"} 
-              alt="Secondary visual" 
+            <img
+              src={experience.secondaryImage}
+              alt="Secondary visual"
               className="w-full h-64 object-cover"
             />
           </div>
@@ -70,7 +84,7 @@ export default function ExperienceContent({ experience }) {
             <ul className="space-y-3">
               {experience.skills.map((skill, index) => (
                 <li key={index} className="flex items-center text-gray-300">
-                  <Check className="w-5 h-5 text-green-500 mr-2" />
+                  <CheckIcon className="w-5 h-5 text-green-500 mr-2" />
                   {skill}
                 </li>
               ))}

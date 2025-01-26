@@ -1,6 +1,6 @@
+import type { Experience } from "@/components/ExperienceContent";
 
-
-export const experiences= {
+export const experiences: Record<string, Experience> = {
   peerpitch: {
     title: "Co-Founder",
     company: "PeerPitch",
@@ -98,7 +98,7 @@ export const experiences= {
       "Process Optimization"
     ],
     mainImage: "/intelgroup.jpg",
-    secondaryImage: "/inteldashboard.jpg"
+    secondaryImage: "/Inteldashboard.jpg"
   },
   depop: {
     title: "Managed Personal E-commerce Store",
@@ -129,4 +129,4 @@ export const experiences= {
     mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
     secondaryImage: "/placeholder.svg?height=300&width=300"
   }
-}
+} as const;

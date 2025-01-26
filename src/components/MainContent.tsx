@@ -1,38 +1,49 @@
-import { Play } from 'lucide-react'
-import Link from 'next/link'
+import { PlayIcon } from 'lucide-react';
+import Link from 'next/link';
 
-const featuredPlaylist = {
+const featuredPlaylist: {
+  id: number
+  name: string
+  description: string
+  imageUrl: string
+} = {
   id: 0,
   name: "Hey Spotify Recruitment!",
   description: "I would love to be part of the band! Here is my demo tape of skills and experiences.",
   imageUrl: "/will.jpg"
-}
+} as const;
 
-const playlists = [
-  { 
-    id: 1, 
-    name: "Co-Founder, Product Manager", 
+const playlists: {
+  id: number
+  name: string
+  description: string
+  imageUrl: string
+  href: string
+}[] = [
+  {
+    id: 1,
+    name: "Co-Founder, Product Manager",
     description: "PeerPitch",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PeerPitch-ntlm5UeqVfSKzy7lprEUp2La41pr9o.png",
     href: "/peerpitch"
   },
-  { 
-    id: 2, 
-    name: "Product Manager & UX Researcher", 
+  {
+    id: 2,
+    name: "Product Manager & UX Researcher",
     description: "MyExeter",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Exeter.jpg-I1POZ9XrjHpxC3juzWiTSUxhKtryKr.jpeg",
     href: "/myexeter"
   },
-  { 
-    id: 3, 
-    name: "Product Manager (Pricing Tools)", 
+  {
+    id: 3,
+    name: "Product Manager (Pricing Tools)",
     description: "Intel",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Intel.jpg-EajCfst7cSVAnnSjbIooUdcqiHcj3y.jpeg",
     href: "/intel"
   },
-  { 
-    id: 4, 
-    name: "Managed Personal E-commerce Store", 
+  {
+    id: 4,
+    name: "Managed Personal E-commerce Store",
     description: "Depop",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
     href: "/depop"
@@ -56,7 +67,7 @@ const playlists = [
 
 export default function MainContent() {
   return (
-    (<div
+    <div
       className="flex-1 overflow-y-auto bg-gradient-to-b from-blue-900 to-black p-8 pb-24">
       <h2 className="text-3xl font-bold mb-6">Will Arrowsmith</h2>
       {/* Featured Playlist */}
@@ -64,7 +75,7 @@ export default function MainContent() {
         <div
           className="bg-white bg-opacity-10 group rounded-md overflow-hidden flex items-center hover:bg-opacity-20 transition-all duration-200">
           <img
-            src={featuredPlaylist.imageUrl || "/placeholder.svg"}
+            src={featuredPlaylist.imageUrl}
             alt={featuredPlaylist.name}
             className="w-64 h-64 object-cover object-top" />
           <div className="p-6 flex-1">
@@ -88,7 +99,7 @@ export default function MainContent() {
             <Link href={playlist.href} className="contents">
               <div className="aspect-square w-full bg-black">
                 <img
-                  src={playlist.imageUrl || "/placeholder.svg"}
+                  src={playlist.imageUrl}
                   alt={playlist.name}
                   className="aspect-square w-full h-full object-cover" />
               </div>
@@ -101,14 +112,14 @@ export default function MainContent() {
                 </div>
                 <div
                   className="mt-2 opacity-0 group-hover:opacity-100 self-end bg-green-500 rounded-full p-3 shadow-lg transition-all duration-200">
-                  <Play fill="black" size={24} />
+                  <PlayIcon fill="black" size={24} />
                 </div>
               </div>
             </Link>
           </div>
         ))}
       </div>
-    </div>)
+    </div>
   );
 }
 
