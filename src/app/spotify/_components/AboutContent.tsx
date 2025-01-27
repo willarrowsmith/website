@@ -13,7 +13,7 @@ export default function AboutContent() {
             <div className="space-y-4">
               <div className="aspect-square w-full bg-black/20 rounded-lg overflow-hidden">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Linkedin-hNhqwzB2yMa4gaKcwN7vKmJFrJ4eI7.jpeg"
+                  src="/vic2.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -42,25 +42,19 @@ export default function AboutContent() {
             {/* About Text Content */}
             <div className="space-y-6">
               <p className="text-gray-300 leading-relaxed">
-                I am a Product Manager with experience in both early-stage startups and large enterprises. Currently
-                pursuing my xxx in Computer Science at the University of Exeter, I combine technical knowledge with
-                business acumen to drive product innovation and growth.
+              My name is Will Arrowsmith, and I’m a final-year Business Economics student at the University of Exeter. I’m a creative and proactive problem solver with a talent for crafting innovative, user-friendly solutions. I’m passionate about developing accessible products that make a meaningful impact.
               </p>
 
               <p className="text-gray-300 leading-relaxed">
-                With a track record of successful product launches and improvements at companies like Intel and
-                PeerPitch, I specialize in using data-driven insights to develop products that truly resonate with users
-                while meeting business objectives.
+              My internship at Intel introduced me to product management, where I managed digital tools for the pricing team. Since, I’ve helped Exeter University launch and improve their student app, "MyExeter", and created "PeerPitch", an app similar to a dating app but for skill-sharing and collaboration among students. 
               </p>
 
               <p className="text-gray-300 leading-relaxed">
-                Outside of work, I'm passionate about music production and exploring new technologies. I enjoy
-                collaborating with cross-functional teams and believe in creating products that make a positive impact
-                on people's lives.
+              Outside of work, my interests include music, fitness, and cooking. I love challenging myself to learn new things. Recently, I’ve started producing music to further explore my love for the piano and have taken on the challenge of learning how to make sushi. I stay active through running, regular gym sessions, and playing Padel—a new favourite with me and my housemates !
               </p>
 
               <Link
-                href="/"
+                href="/spotify"
                 className="inline-flex bg-green-500 text-black font-semibold py-2 px-4 rounded-full hover:bg-green-400 transition-colors duration-200"
               >
                 Back to Home

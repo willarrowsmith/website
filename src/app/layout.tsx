@@ -2,7 +2,7 @@ import './globals.css'
 
 import { Inter } from 'next/font/google'
 import type { PropsWithChildren } from 'react'
-import PlayerControl from '../components/PlayerControl'
+import PlayerControl from './spotify/_components/PlayerControl'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,12 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col h-screen bg-black text-white">
-          <main className="flex flex-1 overflow-hidden">
-            {children}
-          </main>
-          <PlayerControl />
-        </div>
+        {children}
       </body>
     </html>
   );

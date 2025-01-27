@@ -25,42 +25,42 @@ const playlists: {
     name: "Co-Founder, Product Manager",
     description: "PeerPitch",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PeerPitch-ntlm5UeqVfSKzy7lprEUp2La41pr9o.png",
-    href: "/peerpitch"
+    href: "/spotify/peerpitch"
   },
   {
     id: 2,
     name: "Product Manager & UX Researcher",
     description: "MyExeter",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Exeter.jpg-I1POZ9XrjHpxC3juzWiTSUxhKtryKr.jpeg",
-    href: "/myexeter"
+    href: "/spotify/myexeter"
   },
   {
     id: 3,
     name: "Product Manager (Pricing Tools)",
     description: "Intel",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Intel.jpg-EajCfst7cSVAnnSjbIooUdcqiHcj3y.jpeg",
-    href: "/intel"
+    href: "/spotify/intel"
   },
   {
     id: 4,
-    name: "Managed Personal E-commerce Store",
-    description: "Depop",
-    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
-    href: "/depop"
+    name: "Coding",
+    description: "Bright Network",
+    imageUrl: "/bright.jpg",
+    href: "/spotify/bright"
   },
   { 
     id: 5, 
-    name: "Coding", 
-    description: "Bright Network",
-    imageUrl: "/bright.jpg",
-    href: "/depop"
+    name: "Managed Personal E-commerce Store", 
+    description: "Depop",
+    imageUrl: "/depop.jpg",
+    href: "/spotify/depop"
   },
   { 
     id: 6, 
     name: "Music", 
     description: "",
-    imageUrl: "/bright.jpg",
-    href: "/music"
+    imageUrl: "/piano.jpg",
+    href: "/spotify/music"
   },
   
 ]
@@ -82,7 +82,7 @@ export default function MainContent() {
             <h3 className="text-2xl font-bold mb-2">{featuredPlaylist.name}</h3>
             <p className="text-gray-300 mb-4">{featuredPlaylist.description}</p>
             <Link
-              href="/about"
+              href="/spotify/about"
               className="bg-green-500 text-black font-semibold py-2 px-4 rounded-full hover:bg-green-400 transition-colors duration-200">
               About me
             </Link>

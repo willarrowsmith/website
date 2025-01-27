@@ -12,19 +12,19 @@ export default function Sidebar() {
       </div>
       <nav className="space-y-4">
         <Link
-          href="/"
+          href="/spotify"
           className="flex items-center space-x-2 text-gray-300 hover:text-white">
           <Home />
           <span>Home</span>
         </Link>
         <Link
-          href="/"
+          href="/spotify"
           className="flex items-center space-x-2 text-gray-300 hover:text-white">
           <Search />
           <span>Search</span>
         </Link>
         <Link
-          href="/"
+          href="/spotify"
           className="flex items-center space-x-2 text-gray-300 hover:text-white">
           <Library />
           <span>Your Library</span>

@@ -1,6 +1,6 @@
-import ExperienceContent from "@/components/ExperienceContent";
-import Sidebar from "@/components/Sidebar";
-import { experiences } from "@/experience";
+import ExperienceContent from "@/app/spotify/_components/ExperienceContent";
+import Sidebar from "@/app/spotify/_components/Sidebar";
+import { experiences } from "@/app/spotify/experience";
 import { notFound } from "next/navigation";
  
 export async function generateStaticParams() {
