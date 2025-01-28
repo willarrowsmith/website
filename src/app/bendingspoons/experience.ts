@@ -224,7 +224,7 @@ export const experiences: Record<string, Experience> = {
   },
   music: {
     title: "Musical Interest",
-    company: "Music has always been a passion of mine. As a child, I played the trumpet and later taught myself piano, reaching Grade 7 ability with the help of online resources like YouTube. I enjoy playing R&B, pop, and hip-hop to unwind and recently invested in an electric keyboard and music software to explore music production. I’ve been an avid Spotify user for as long as I can remember, and a highlight for me was when Wrapped launched in 2016. Seeing my listening habits reflected on a platform I use so often was a fascinating and inspiring experience.",
+    company: "Music has always been a passion of mine. As a child, I played the trumpet and later taught myself piano, reaching Grade 7 ability with the help of online resources like YouTube. I enjoy playing R&B, pop, and hip-hop to unwind and recently invested in an electric keyboard and music software to explore music production.",
     description: `
     <ul>
   <li>Reached Grade 5 trumpet by the age of 11</li>

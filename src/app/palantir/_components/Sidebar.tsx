@@ -6,7 +6,7 @@ export default function Sidebar() {
     <div className="w-64 bg-black p-6 flex flex-col">
       <div className="mb-8">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Spotify.jpg-QEbS0OZkfj39g8nooEKquN9dETG6IT.jpeg"
+          src="/palantir.jpg"
           alt="Spotify"
           className="h-16 w-auto" />
       </div>
