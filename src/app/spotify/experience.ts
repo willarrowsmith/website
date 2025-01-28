@@ -184,63 +184,43 @@ export const experiences: Record<string, Experience> = {
     mainImage: "/depop1.jpg",
     secondaryImage: "/parcel.jpg"
   },
-  coding: {
-    title: "Coding",
-    company: "Bright Network",
-    description: "Successfully operated a personal e-commerce business, implementing effective marketing strategies and maintaining high customer satisfaction rates.",
-    timeline: [
-      {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
-      },
-      {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
-      },
-      {
-        date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
-      }
-    ],
-    skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
-    ],
-    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
-    secondaryImage: "/placeholder.svg?height=300&width=300"
-  },
   bright: {
-    title: "Managed Personal E-commerce Store",
-    company: "Bright Network",
-    description: "Successfully operated a personal e-commerce business, implementing effective marketing strategies and maintaining high customer satisfaction rates.",
+    title: "Courses (Coding and Analytics)",
+    company: "I have completed a number of courses in coding, analytics and prompt engineering to elevate my skillset and personal development.",
+    description: `
+    <ul>
+  <li>Completed a 5 week Couch to Coder course learning the basics of HTML, CSS JavaScript and React code.</li>
+  <li>Completed Intel's 24 hour long business analytics course involving coursework and a final project.</li>
+  <li>Completed Intel's AI Prompt Engineering course, gaining valuable skills in leveraging Generative AI to enhance efficiency and effectiveness at work.</li>
+  <li>Completed 5 Linkedin learning courses during my internship to improve my Excel and PowerBI skills.</li>
+</ul>
+    `,
     timeline: [
       {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
+        date: "Sep 2023",
+        learning: "Completed 3 Linkedin Excel and PowerBI courses"
       },
       {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
+        date: "Apr 2024",
+        learning: "Completed Intels Business Analytics Certification"
       },
       {
-        date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
+        date: "May 2024",
+        learning: "Intel AI Prompt Engineering Qualification"
+      },
+      {
+        date: "Aug 2024",
+        learning: "Completed 5 week long Couch to Coder course"
       }
     ],
     skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
+      "Data Analytics",
+      "Coding",
+      "Prompt Engineering",
+      "Microsoft Tools",
     ],
-    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
-    secondaryImage: "/placeholder.svg?height=300&width=300"
+    mainImage: "/coding.jpg",
+    secondaryImage: "/lecture.jpg"
   },
   music: {
     title: "Musical Interest",
@@ -254,27 +234,28 @@ export const experiences: Record<string, Experience> = {
     `,
     timeline: [
       {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
+        date: "Jan 2014",
+        learning: "Passed Grade 5 Trumpet"
       },
       {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
+        date: "Mar 2016",
+        learning: "Began teaching myself the piano using YouTube"
       },
       {
-        date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
+        date: "June 2023",
+        learning: "Reached grade 7 ability on the piano"
+      },
+      {
+        date: "Jan 2024",
+        learning: "Invested in an electric keyboard and music production software"
       }
     ],
     skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
+      "Music Production",
+      "Ability to self teach",
+      "Determination",
     ],
-    mainImage: "vic3.jpg",
+    mainImage: "/vic3.jpg",
     secondaryImage: "/loyle.jpg"
   }
 } as const;

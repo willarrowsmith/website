@@ -20,7 +20,7 @@ export default function AboutContent() {
               </div>
 
               {/* Resume Download */}
-              <Link href="/willarrowsmithcv.pdf" download target="_blank" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors group">
+              <Link href="/bendingspoons.pdf" download target="_blank" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors group">
                 <div className="p-2 bg-red-500/10 rounded-lg group-hover:bg-red-500/20 transition-colors">
                   <FileText className="w-5 h-5 text-red-500" />
                 </div>
@@ -42,13 +42,16 @@ export default function AboutContent() {
             {/* About Text Content */}
             <div className="space-y-6">
               <p className="text-gray-300 leading-relaxed">
-              My name is Will Arrowsmith, and I’m a final-year Business Economics student at the University of Exeter. I’m a creative and proactive problem solver with a talent for crafting innovative, user-friendly solutions. I’m passionate about developing accessible products that make a meaningful impact.
+              My name is Will Arrowsmith, and I’m a final-year Business Economics student at the University of Exeter. I’m an analytical and proactive problem solver with a passion for tackling complex challenges and a deep interest in digital innovation.
               </p>
 
               <p className="text-gray-300 leading-relaxed">
-              My internship at Intel introduced me to product management, where I managed digital tools for the pricing team. Since, I’ve helped Exeter University launch and improve their student app, "MyExeter", and created "PeerPitch", an app similar to a dating app but for skill-sharing and collaboration among students. 
+              During my internship at Intel, I gained valuable experience analyzing financial data and providing clear, data-driven recommendations as part of the Data Centre and AI team. I enjoyed turning analysis into meaningful insights—a skill I am eager to develop further in the M&A Intern role at Bending Spoons. Working on deals involving leading digital products is particularly exciting, as it aligns my analytical skills with my enthusiasm for transformative technology.
               </p>
 
+              <p className="text-gray-300 leading-relaxed">
+              At university, I contributed to the development of MyExeter, the university’s student app, and created PeerPitch, a platform designed for skill-sharing and collaboration inspired by a dating app. I am fascinated by the evolution of digital tools, particularly advancements in AI, and actively follow emerging trends and players in the software space.
+              </p>
               <p className="text-gray-300 leading-relaxed">
               Outside of work, my interests include music, fitness, and cooking. I love challenging myself to learn new things. Recently, I’ve started producing music to further explore my love for the piano and have taken on the challenge of learning how to make sushi. I stay active through running, regular gym sessions, and playing Padel—a new favourite with me and my housemates !
               </p>

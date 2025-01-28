@@ -37,7 +37,7 @@ export const experiences: Record<string, Experience> = {
       }
     ],
     skills: [
-      "Product Strategy",
+      "Digital Product Strategy",
       "Product Management",
       "User Research",
       "Agile Development",
@@ -95,8 +95,8 @@ export const experiences: Record<string, Experience> = {
     secondaryImage: "/arrows.jpg"
   },
   intel: {
-    title: "Product Manager (Pricing Tools)",
-    company: "I completed a 13-month placement at Intel within the Data Centre and AI team, where I initially served as a pricing manager and business analyst, overseeing pricing requests for Intel's Xeon data centre chips. Midway through my internship, I took on additional responsibilities as a product manager, managing the set of tools and systems used by EMEA pricing managers, driving efficiency and alignment in pricing operations.",
+    title: "Pricing Manager and Business Analyst (Data Centre & AI)",
+    company: "I completed a 13-month placement at Intel within the Data Centre and AI team, where I served as a pricing manager and business analyst, overseeing pricing requests for Intel's Xeon data centre chips. Midway through my internship, I took on additional responsibilities as a product manager, managing the set of tools and systems used by EMEA pricing managers, driving efficiency and alignment in pricing operations.",
     description: 
     `
     <ul>
@@ -184,67 +184,47 @@ export const experiences: Record<string, Experience> = {
     mainImage: "/depop1.jpg",
     secondaryImage: "/parcel.jpg"
   },
-  coding: {
-    title: "Coding",
-    company: "Bright Network",
-    description: "Successfully operated a personal e-commerce business, implementing effective marketing strategies and maintaining high customer satisfaction rates.",
-    timeline: [
-      {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
-      },
-      {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
-      },
-      {
-        date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
-      }
-    ],
-    skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
-    ],
-    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
-    secondaryImage: "/placeholder.svg?height=300&width=300"
-  },
   bright: {
-    title: "Managed Personal E-commerce Store",
-    company: "Bright Network",
-    description: "Successfully operated a personal e-commerce business, implementing effective marketing strategies and maintaining high customer satisfaction rates.",
+    title: "Courses (Coding and Analytics)",
+    company: "I have completed a number of courses in coding, analytics and prompt engineering to elevate my skillset and personal development.",
+    description: `
+    <ul>
+  <li>Completed a 5 week Couch to Coder course learning the basics of HTML, CSS JavaScript and React code.</li>
+  <li>Completed Intel's 24 hour long business analytics course involving coursework and a final project.</li>
+  <li>Completed Intel's AI Prompt Engineering course, gaining valuable skills in leveraging Generative AI to enhance efficiency and effectiveness at work.</li>
+  <li>Completed 5 Linkedin learning courses during my internship to improve my Excel and PowerBI skills.</li>
+</ul>
+    `,
     timeline: [
       {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
+        date: "Sep 2023",
+        learning: "Completed 3 Linkedin Excel and PowerBI courses"
       },
       {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
+        date: "Apr 2024",
+        learning: "Completed Intels Business Analytics Certification"
       },
       {
-        date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
+        date: "May 2024",
+        learning: "Intel AI Prompt Engineering Qualification"
+      },
+      {
+        date: "Aug 2024",
+        learning: "Completed 5 week long Couch to Coder course"
       }
     ],
     skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
+      "Data Analytics",
+      "Coding",
+      "Prompt Engineering",
+      "Microsoft Tools",
     ],
-    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
-    secondaryImage: "/placeholder.svg?height=300&width=300"
+    mainImage: "/coding.jpg",
+    secondaryImage: "/lecture.jpg"
   },
   music: {
     title: "Musical Interest",
-    company: "Music has always been a passion of mine. As a child, I played the trumpet and later taught myself piano, reaching Grade 7 ability with the help of online resources like YouTube. I enjoy playing R&B, pop, and hip-hop to unwind and recently invested in an electric keyboard and music software to explore music production. To deepen my interest, I used savings from my placement to invest in an electric keyboard and music production software, challenging myself to learn music production. I’ve been an avid Spotify user for as long as I can remember, and a highlight for me was when Wrapped launched in 2016. Seeing my listening habits reflected on a platform I use so often was a fascinating and inspiring experience.",
+    company: "Music has always been a passion of mine. As a child, I played the trumpet and later taught myself piano, reaching Grade 7 ability with the help of online resources like YouTube. I enjoy playing R&B, pop, and hip-hop to unwind and recently invested in an electric keyboard and music software to explore music production. I’ve been an avid Spotify user for as long as I can remember, and a highlight for me was when Wrapped launched in 2016. Seeing my listening habits reflected on a platform I use so often was a fascinating and inspiring experience.",
     description: `
     <ul>
   <li>Reached Grade 5 trumpet by the age of 11</li>
@@ -254,27 +234,28 @@ export const experiences: Record<string, Experience> = {
     `,
     timeline: [
       {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
+        date: "Jan 2014",
+        learning: "Passed Grade 5 Trumpet"
       },
       {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
+        date: "Mar 2016",
+        learning: "Began teaching myself the piano using YouTube"
       },
       {
-        date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
+        date: "June 2023",
+        learning: "Reached grade 7 ability on the piano"
+      },
+      {
+        date: "Jan 2024",
+        learning: "Invested in an electric keyboard and music production software"
       }
     ],
     skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
+      "Music Production",
+      "Ability to self teach",
+      "Determination",
     ],
-    mainImage: "vic3.jpg",
+    mainImage: "/vic3.jpg",
     secondaryImage: "/loyle.jpg"
   }
 } as const;
