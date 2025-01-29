@@ -50,6 +50,10 @@ export default function AboutContent() {
               </p>
 
               <p className="text-gray-300 leading-relaxed">
+              Since, I’ve helped Exeter University launch and improve their student app, "MyExeter", and created "PeerPitch", an app similar to a dating app but for skill-sharing and collaboration among students. 
+              </p>
+
+              <p className="text-gray-300 leading-relaxed">
               Outside of work, my interests include music, fitness, and cooking. I love challenging myself to learn new things. I taught myself piano up to grade 7 using YouTube and have recently started producing music to further explore my passion. I have also been learning to code, using skills gained to build this website. I stay active through running, regular gym sessions, and playing Padel—a new favourite with me and my housemates !
               </p>
 
