@@ -9,7 +9,7 @@ export const experiences: Record<string, Experience> = {
     <ul>
   <li>Conceptualised and designed PeerPitch, a cross-disciplinary collaboration platform connecting students akin to a "dating app" for skills.</li>
   <li>Secured funding, delivering a compelling product pitch to a panel of start-up investors and university senior leadership.</li>
-  <li>Collaborated closely with co-founder software engineer to build the MVP, now in beta testing on TestFlight, with 100+ students onboarded.</li>
+  <li>Collaborated closely with co-founder software engineer to build the MVP, now in beta testing on TestFlight.</li>
   <li>Established strategic partnerships with Exeter University's Digital team and leaders of key student societies to accelerate platform growth.</li>
   <li>Spearheaded the onboarding process for early users, optimizing feedback loops to refine and evolve the quality of our product pre-launch.</li>
 </ul>
