@@ -9,7 +9,7 @@ const featuredPlaylist: {
 } = {
   id: 0,
   name: "Hey Prophet Recruitment!",
-  description: "I would love to be part of the team! Here is a summary of my key skills and experiences.",
+  description: "I'm excited about the chance to work with you. Here’s a snapshot of my skills and experiences:",
   imageUrl: "/will.jpg"
 } as const;
 

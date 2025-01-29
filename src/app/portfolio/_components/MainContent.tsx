@@ -9,7 +9,7 @@ const featuredPlaylist: {
 } = {
   id: 0,
   name: "Hey hiring team!",
-  description: "I'm excited about the chance to work with you. Here’s a snapshot of my skills and experiences.",
+  description: "I'm excited about the chance to work with you. Here’s a snapshot of my skills and experiences:",
   imageUrl: "/will.jpg"
 } as const;
 
