@@ -22,21 +22,21 @@ const playlists: {
 }[] = [
   {
     id: 1,
-    name: "Co-Founder, Product Manager",
+    name: "Co-Founder, Product Strategy",
     description: "PeerPitch",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PeerPitch-ntlm5UeqVfSKzy7lprEUp2La41pr9o.png",
     href: "/prophet/peerpitch"
   },
   {
     id: 3,
-    name: "Business Analyst & Pricing Manager (Data Center & AI)",
+    name: "Data Center & AI Business Analyst & Pricing Manager",
     description: "Intel",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Intel.jpg-EajCfst7cSVAnnSjbIooUdcqiHcj3y.jpeg",
     href: "/prophet/intel"
   },
   {
     id: 2,
-    name: "Product Manager & UX Researcher",
+    name: "Digital Hub Assistant (UX Researcher & Product Designer)",
     description: "MyExeter",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Exeter.jpg-I1POZ9XrjHpxC3juzWiTSUxhKtryKr.jpeg",
     href: "/prophet/myexeter"

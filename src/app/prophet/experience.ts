@@ -2,7 +2,7 @@ import type { Experience } from "@/app/prophet/_components/ExperienceContent";
 
 export const experiences: Record<string, Experience> = {
   peerpitch: {
-    title: "Co-Founder, Product Manager",
+    title: "Co-Founder, Product Strategy",
     company: "Ever had a project or idea but needed some help on a particular skillset and didn't know where to find it ? PeerPitch is here to bridge that gap. Think of it as a dating app but for skill-sharing and collaboration, connecting students with complementary talents to turn ideas into reality",
     description: `
     
@@ -48,7 +48,7 @@ export const experiences: Record<string, Experience> = {
     secondaryImage: "/set.jpg"
   },
   myexeter: {
-    title: "Product Manager & UX Researcher (MyExeter App)",
+    title: "Digital Hub Assistant (UX Researcher & Product Designer)",
     company: "MyExeter, the University of Exeter's latest app launched in September 2024, is designed to streamline and enhance the student experience. It connects directly with timetables and university systems, making it easy for students to manage administrative tasks, view their schedules, and stay up-to-date with campus events, all in one convenient platform.",
     description: 
     `
@@ -95,8 +95,8 @@ export const experiences: Record<string, Experience> = {
     secondaryImage: "/arrows.jpg"
   },
   intel: {
-    title: "Product Designer (Pricing Tools)",
-    company: "I completed a 13-month placement at Intel within the Data Centre and AI team, where I initially served as a pricing manager and business analyst, overseeing pricing requests for Intel's Xeon data centre chips. Midway through my internship, I took on additional responsibilities as a product manager, managing the set of tools and systems used by EMEA pricing managers, driving efficiency and alignment in pricing operations.",
+    title: "Data Center & AI Business Analyst & Pricing Manager",
+    company: "I completed a 13-month placement at Intel within the Data Centre and AI team, where I initially served as a pricing manager and business analyst, overseeing pricing requests for Intel's data centre chips. Midway through my internship, I took on additional responsibilities as a product manager, managing the set of tools and systems used by EMEA pricing managers, driving efficiency and alignment in pricing operations.",
     description: 
     `
     <ul>
