@@ -222,40 +222,25 @@ export const experiences: Record<string, Experience> = {
     mainImage: "/coding.jpg",
     secondaryImage: "/lecture.jpg"
   },
-  music: {
-    title: "Musical Interest",
-    company: "Music has always been a passion of mine. As a child, I played the trumpet and later taught myself piano, reaching Grade 7 ability with the help of online resources like YouTube. I enjoy playing R&B, pop, and hip-hop to unwind and recently invested in an electric keyboard and music software to explore music production.",
+  jumpstart: {
+    title: "Jumpstart Cohort Member",
+    company: "Selected as one of the top ~1% of 3000+ applicants to join Jumpstart's 2025 cohort. Jumpstart is a highly selective platform that connects top-tier talent with high-growth startups.",
     description: `
     <ul>
-  <li>Reached Grade 5 trumpet by the age of 11</li>
-  <li>Taught myself the piano to grade 7 ability using YouTube</li>
-  <li>Saved money from my internship to invest in an electric keyboard and music production software. Began producing my own music</li>
+  <li>Attended 40+ "startup spotlights", meeting founders from the UK's most exciting VC backed startups.</li>
+  <li>Received coaching around how start-ups operate along with professional development.</li>
+  <li>Took part in Jumpstart networking events, meeting talented students from different universities across the UK.</li>
 </ul>
     `,
     timeline: [
-      {
-        date: "Jan 2014",
-        learning: "Passed Grade 5 Trumpet"
-      },
-      {
-        date: "Mar 2016",
-        learning: "Began teaching myself the piano using YouTube"
-      },
-      {
-        date: "June 2023",
-        learning: "Reached grade 7 ability on the piano"
-      },
-      {
-        date: "Jan 2024",
-        learning: "Invested in an electric keyboard and music production software"
-      }
+      
     ],
     skills: [
-      "Music Production",
-      "Ability to self teach",
-      "Determination",
+      "Entrepreneurship",
+      "Start-up knowledge",
+      "Adaptability",
     ],
-    mainImage: "/vic3.jpg",
+    mainImage: "/jumpstart.jpg",
     secondaryImage: "/loyle.jpg"
   }
 } as const;

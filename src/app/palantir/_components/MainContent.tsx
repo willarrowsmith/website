@@ -8,8 +8,8 @@ const featuredPlaylist: {
   imageUrl: string
 } = {
   id: 0,
-  name: "Hey Spotify Recruitment!",
-  description: "I would love to be part of the band! Here is my demo tape of skills and experiences.",
+  name: "Hey Prophet Recruitment!",
+  description: "I would love to be part of the team! Here is a summary of my key skills and experiences.",
   imageUrl: "/will.jpg"
 } as const;
 
@@ -28,25 +28,18 @@ const playlists: {
     href: "/palantir/peerpitch"
   },
   {
-    id: 2,
-    name: "Product Manager & UX Researcher",
-    description: "MyExeter",
-    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Exeter.jpg-I1POZ9XrjHpxC3juzWiTSUxhKtryKr.jpeg",
-    href: "/palantir/myexeter"
-  },
-  {
     id: 3,
-    name: "Product Manager (Pricing Tools)",
+    name: "Business Analyst & Pricing Manager (Data Center & AI)",
     description: "Intel",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Intel.jpg-EajCfst7cSVAnnSjbIooUdcqiHcj3y.jpeg",
     href: "/palantir/intel"
   },
   {
-    id: 4,
-    name: "Coding",
-    description: "Bright Network",
-    imageUrl: "/bright.jpg",
-    href: "/palantir/bright"
+    id: 2,
+    name: "Product Manager & UX Researcher",
+    description: "MyExeter",
+    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Exeter.jpg-I1POZ9XrjHpxC3juzWiTSUxhKtryKr.jpeg",
+    href: "/palantir/myexeter"
   },
   { 
     id: 5, 
@@ -57,12 +50,20 @@ const playlists: {
   },
   { 
     id: 6, 
-    name: "Music", 
-    description: "",
-    imageUrl: "/piano.jpg",
-    href: "/palantir/music"
+    name: "Cohort Member", 
+    description: "Jumpstart",
+    imageUrl: "/jumpstart1.jpg",
+    href: "/palantir/jumpstart"
   },
+  {
+    id: 4,
+    name: "Coding",
+    description: "Bright Network",
+    imageUrl: "/bright.jpg",
+    href: "/palantir/bright"
+  }
   
+ 
 ]
 
 export default function MainContent() {

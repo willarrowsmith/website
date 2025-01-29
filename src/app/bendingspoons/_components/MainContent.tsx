@@ -57,10 +57,10 @@ const playlists: {
   },
   { 
     id: 6, 
-    name: "Music", 
-    description: "",
-    imageUrl: "/piano.jpg",
-    href: "/bendingspoons/music"
+    name: "Cohort Member", 
+    description: "Jumpstart",
+    imageUrl: "/jumpstart1.jpg",
+    href: "/bendingspoons/jumpstart"
   },
   
 ]

@@ -18,7 +18,7 @@ export default function RootLayout({
           <main className="flex flex-1 overflow-hidden">
             {children}
           </main>
-          <PlayerControl />
+          
         </div>
   );
 }

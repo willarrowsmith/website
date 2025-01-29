@@ -1,51 +1,38 @@
-import { Heart, Home, Library, PlusSquare, Search } from 'lucide-react';
-import Link from 'next/link';
+import { Briefcase, Home, User } from "lucide-react"
+import Link from "next/link"
 
 export default function Sidebar() {
   return (
     <div className="w-64 bg-black p-6 flex flex-col">
       <div className="mb-8">
         <img
-          src="/palantir.jpg"
+          src="/prophet.jpg"
           alt="Spotify"
-          className="h-16 w-auto" />
+          className="h-16 w-auto"
+        />
       </div>
       <nav className="space-y-4">
-        <Link
-          href="/palantir"
-          className="flex items-center space-x-2 text-gray-300 hover:text-white">
+        <Link href="/palantir" className="flex items-center space-x-2 text-gray-300 hover:text-white">
           <Home />
           <span>Home</span>
         </Link>
-        <Link
-          href="/palantir"
-          className="flex items-center space-x-2 text-gray-300 hover:text-white">
-          <Search />
-          <span>Search</span>
+        <Link href="palantir/about" className="flex items-center space-x-2 text-gray-300 hover:text-white">
+          <User />
+          <span>About Me</span>
         </Link>
-        <Link
-          href="/palantir"
-          className="flex items-center space-x-2 text-gray-300 hover:text-white">
-          <Library />
-          <span>Your Library</span>
-        </Link>
+
+        <div className="border-t border-gray-800 my-4"></div>
+
       </nav>
-      <div className="mt-8 space-y-4">
-        <button className="flex items-center space-x-2 text-gray-300 hover:text-white">
-          <PlusSquare />
-          <span>Create Playlist</span>
-        </button>
-        <button className="flex items-center space-x-2 text-gray-300 hover:text-white">
-          <Heart />
-          <span>Liked Songs</span>
-        </button>
-      </div>
       <div className="mt-auto text-xs text-gray-400">
-        <a href="#" className="hover:underline">Cookies</a>
+        <a href="#" className="hover:underline">
+          Cookies
+        </a>
         <span className="mx-2">|</span>
-        <a href="#" className="hover:underline">Privacy Policy</a>
+        <a href="#" className="hover:underline">
+          Privacy Policy
+        </a>
       </div>
     </div>
-  );
+  )
 }
-

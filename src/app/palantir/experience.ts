@@ -184,72 +184,52 @@ export const experiences: Record<string, Experience> = {
     mainImage: "/depop1.jpg",
     secondaryImage: "/parcel.jpg"
   },
-  coding: {
-    title: "Coding",
-    company: "Bright Network",
-    description: "Successfully operated a personal e-commerce business, implementing effective marketing strategies and maintaining high customer satisfaction rates.",
-    timeline: [
-      {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
-      },
-      {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
-      },
-      {
-        date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
-      }
-    ],
-    skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
-    ],
-    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
-    secondaryImage: "/placeholder.svg?height=300&width=300"
-  },
   bright: {
-    title: "Managed Personal E-commerce Store",
-    company: "Bright Network",
-    description: "Successfully operated a personal e-commerce business, implementing effective marketing strategies and maintaining high customer satisfaction rates.",
-    timeline: [
-      {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
-      },
-      {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
-      },
-      {
-        date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
-      }
-    ],
-    skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
-    ],
-    mainImage: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depop.jpg-8p2nVUSgucIdVoXuxrQX7lGGVb8EH0.jpeg",
-    secondaryImage: "/placeholder.svg?height=300&width=300"
-  },
-  music: {
-    title: "Musical Interest",
-    company: "Music has always been a passion of mine. As a child, I played the trumpet and later taught myself piano, reaching Grade 7 ability with the help of online resources like YouTube. I enjoy playing R&B, pop, and hip-hop to unwind and recently invested in an electric keyboard and music software to explore music production. To deepen my interest, I used savings from my placement to invest in an electric keyboard and music production software, challenging myself to learn music production. I’ve been an avid Spotify user for as long as I can remember, and a highlight for me was when Wrapped launched in 2016. Seeing my listening habits reflected on a platform I use so often was a fascinating and inspiring experience.",
+    title: "Courses (Coding and Analytics)",
+    company: "I have completed a number of courses in coding, analytics and prompt engineering to elevate my skillset and personal development.",
     description: `
     <ul>
-  <li>Reached Grade 5 trumpet by the age of 11</li>
-  <li>Taught myself the piano to grade 7 ability using YouTube</li>
-  <li>Saved money from my internship to invest in an electric keyboard and music production software. Began producing my own music</li>
+  <li>Completed a 5 week Couch to Coder course learning the basics of HTML, CSS JavaScript and React code.</li>
+  <li>Completed Intel's 24 hour long business analytics course involving coursework and a final project.</li>
+  <li>Completed Intel's AI Prompt Engineering course, gaining valuable skills in leveraging Generative AI to enhance efficiency and effectiveness at work.</li>
+  <li>Completed 5 Linkedin learning courses during my internship to improve my Excel and PowerBI skills.</li>
+</ul>
+    `,
+    timeline: [
+      {
+        date: "Sep 2023",
+        learning: "Completed 3 Linkedin Excel and PowerBI courses"
+      },
+      {
+        date: "Apr 2024",
+        learning: "Completed Intels Business Analytics Certification"
+      },
+      {
+        date: "May 2024",
+        learning: "Intel AI Prompt Engineering Qualification"
+      },
+      {
+        date: "Aug 2024",
+        learning: "Completed 5 week long Couch to Coder course"
+      }
+    ],
+    skills: [
+      "Data Analytics",
+      "Coding",
+      "Prompt Engineering",
+      "Microsoft Tools",
+    ],
+    mainImage: "/coding.jpg",
+    secondaryImage: "/lecture.jpg"
+  },
+  jumpstart: {
+    title: "Jumpstart Cohort Member",
+    company: "Selected as one of the top ~1% of 3000+ applicants to join Jumpstart's 2025 cohort. Jumpstart is a highly selective platform that connects top-tier talent with high-growth startups.",
+    description: `
+    <ul>
+  <li>Attended 40+ "startup spotlights", meeting founders from the UK's most exciting VC backed startups.</li>
+  <li>Received coaching around how start-ups operate along with professional development.</li>
+  <li>Took part in Jumpstart networking events, meeting talented students from different universities across the UK.</li>
 </ul>
     `,
     timeline: [
@@ -274,7 +254,7 @@ export const experiences: Record<string, Experience> = {
       "Photography",
       "Social Media Strategy"
     ],
-    mainImage: "vic3.jpg",
+    mainImage: "/jumpstart.jpg",
     secondaryImage: "/loyle.jpg"
   }
 } as const;
