@@ -95,7 +95,7 @@ export const experiences: Record<string, Experience> = {
     secondaryImage: "/arrows.jpg"
   },
   intel: {
-    title: "Product Manager (Pricing Tools)",
+    title: "Product Designer (Pricing Tools)",
     company: "I completed a 13-month placement at Intel within the Data Centre and AI team, where I initially served as a pricing manager and business analyst, overseeing pricing requests for Intel's Xeon data centre chips. Midway through my internship, I took on additional responsibilities as a product manager, managing the set of tools and systems used by EMEA pricing managers, driving efficiency and alignment in pricing operations.",
     description: 
     `
@@ -109,19 +109,19 @@ export const experiences: Record<string, Experience> = {
     `,
     timeline: [
       {
-        date: "June 2024",
+        date: "June 2023",
         learning: "Began my internship at Intel"
       },
       {
-        date: "September 2024",
+        date: "September 2023",
         learning: "Recognised the need for and developed a new pricing tool. "
       },
       {
-        date: "November 2024",
+        date: "November 2023",
         learning: "Introduced the tool to my team who were keen to adopt. Continually iterated based on feedback"
       },
       {
-        date: "December 2024",
+        date: "December 2023",
         learning: "Took on the responsibility of managing the collective set of tools and systems used by EMEA pricing managers"
       },
       {
@@ -131,12 +131,16 @@ export const experiences: Record<string, Experience> = {
       {
         date: "April 2024",
         learning: "My pricing tool was adopted by our US counterparts. The tool saved my team alone an estimated 455hrs/year"
+      },
+      {
+        date: "July 2024",
+        learning: "Finsihed my internship at Intel"
       }
     ],
     skills: [
       "Process Optimisation",
       "Data Analysis",
-      "Product Management",
+      "Product Design",
       "Leadership",
       "Feature Prioritisation",
     ],
