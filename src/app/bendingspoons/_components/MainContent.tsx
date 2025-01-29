@@ -8,7 +8,7 @@ const featuredPlaylist: {
   imageUrl: string
 } = {
   id: 0,
-  name: "Hey, Bending Spoons hiring team!",
+  name: "Hey, Bending Spoons recruitment!",
   description: "I'm excited about the chance to work with you. Here’s a snapshot of my skills and experiences.",
   imageUrl: "/will.jpg"
 } as const;
