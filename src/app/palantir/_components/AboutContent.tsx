@@ -46,7 +46,7 @@ export default function AboutContent() {
               </p>
 
               <p className="text-gray-300 leading-relaxed">
-              My internship at Intel introduced me to product management, where I managed digital tools for the pricing team. Since, I’ve helped Exeter University launch and improve their student app, "MyExeter", and created "PeerPitch", an app similar to a dating app but for skill-sharing and collaboration among students. 
+              My internship at Intel introduced me to product design, where I designed digital tools for the pricing team. Since, I’ve helped Exeter University launch and improve their student app, "MyExeter", and created "PeerPitch", an app similar to a dating app but for skill-sharing and collaboration among students. 
               </p>
 
               <p className="text-gray-300 leading-relaxed">
