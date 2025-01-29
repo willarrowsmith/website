@@ -20,7 +20,7 @@ export default function AboutContent() {
               </div>
 
               {/* Resume Download */}
-              <Link href="/willarrowsmithcv.pdf" download target="_blank" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors group">
+              <Link href="/prophetcv.pdf" download target="_blank" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors group">
                 <div className="p-2 bg-red-500/10 rounded-lg group-hover:bg-red-500/20 transition-colors">
                   <FileText className="w-5 h-5 text-red-500" />
                 </div>
