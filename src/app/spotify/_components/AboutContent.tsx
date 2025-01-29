@@ -20,7 +20,7 @@ export default function AboutContent() {
               </div>
 
               {/* Resume Download */}
-              <Link href="/willarrowsmithcv.pdf" download target="_blank" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors group">
+              <Link href="/spotifyproduct.pdf" download target="_blank" className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors group">
                 <div className="p-2 bg-red-500/10 rounded-lg group-hover:bg-red-500/20 transition-colors">
                   <FileText className="w-5 h-5 text-red-500" />
                 </div>
@@ -50,7 +50,7 @@ export default function AboutContent() {
               </p>
 
               <p className="text-gray-300 leading-relaxed">
-              Outside of work, my interests include music, fitness, and cooking. I love challenging myself to learn new things. Recently, I’ve started producing music to further explore my love for the piano and have taken on the challenge of learning how to make sushi. I stay active through running, regular gym sessions, and playing Padel—a new favourite with me and my housemates !
+              Outside of work, my interests include music, fitness, and cooking. I love challenging myself to learn new things. I taught myself piano up to grade 7 using YouTube and have recently started producing music to further explore my passion. I have also been learning to code, using skills gained to build this website. I stay active through running, regular gym sessions, and playing Padel—a new favourite with me and my housemates !
               </p>
 
               <Link

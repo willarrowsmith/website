@@ -234,27 +234,25 @@ export const experiences: Record<string, Experience> = {
     `,
     timeline: [
       {
-        date: "Mar 2022",
-        learning: "Established store and developed brand identity"
+        date: "Nov 2024",
+        learning: "Selected to join Jumpstart"
       },
       {
-        date: "May 2022",
-        learning: "Achieved top seller status through consistent growth"
+        date: "Dec 2024",
+        learning: "Engaged with upskilling workshops around start-up skillsets"
       },
       {
         date: "Jul 2022",
-        learning: "Implemented automated inventory management system"
+        learning: "Attended start-up spotlights meeting founders from some of the UK's most exciting start-ups"
       }
     ],
     skills: [
-      "E-commerce Management",
-      "Customer Service",
-      "Inventory Management",
-      "Digital Marketing",
-      "Photography",
-      "Social Media Strategy"
+      "Entrepreneuship",
+      "Networking",
+      "Start-up Insight",
+      "Commercial Awareness"
     ],
     mainImage: "/jumpstart.jpg",
-    secondaryImage: "/loyle.jpg"
+    secondaryImage: "/jump.jpg"
   }
 } as const;

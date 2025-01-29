@@ -228,19 +228,31 @@ export const experiences: Record<string, Experience> = {
     description: `
     <ul>
   <li>Attended 40+ "startup spotlights", meeting founders from the UK's most exciting VC backed startups.</li>
-  <li>Received coaching around how start-ups operate along with professional development.</li>
+  <li>Received coaching around how start-ups operate along with professional development</li>
   <li>Took part in Jumpstart networking events, meeting talented students from different universities across the UK.</li>
 </ul>
     `,
     timeline: [
-      
+      {
+        date: "Nov 2024",
+        learning: "Selected to join Jumpstart"
+      },
+      {
+        date: "Dec 2024",
+        learning: "Engaged with upskilling workshops around start-up skillsets"
+      },
+      {
+        date: "Jul 2022",
+        learning: "Attended start-up spotlights meeting founders from some of the UK's most exciting start-ups"
+      }
     ],
     skills: [
-      "Entrepreneurship",
-      "Start-up knowledge",
-      "Adaptability",
+      "Entrepreneuship",
+      "Networking",
+      "Start-up Insight",
+      "Commercial Awareness"
     ],
     mainImage: "/jumpstart.jpg",
-    secondaryImage: "/loyle.jpg"
-  }
+    secondaryImage: "/jump.jpg"
+  },
 } as const;

@@ -255,6 +255,6 @@ export const experiences: Record<string, Experience> = {
       "Social Media Strategy"
     ],
     mainImage: "/jumpstart.jpg",
-    secondaryImage: "/loyle.jpg"
+    secondaryImage: "/jumpstart1.jpg"
   }
 } as const;

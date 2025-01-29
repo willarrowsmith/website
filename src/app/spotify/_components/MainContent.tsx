@@ -57,10 +57,10 @@ const playlists: {
   },
   { 
     id: 6, 
-    name: "Music", 
-    description: "",
-    imageUrl: "/piano.jpg",
-    href: "/spotify/music"
+    name: "Cohort Member", 
+    description: "Jumpstart",
+    imageUrl: "/Jumpstart1.jpg",
+    href: "/spotify/jumpstart"
   },
   
 ]
