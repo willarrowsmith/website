@@ -1,4 +1,4 @@
-import type { Experience } from "@/app/palantir/_components/ExperienceContent";
+import type { Experience } from "@/app/portfolio/_components/ExperienceContent";
 
 export const experiences: Record<string, Experience> = {
   peerpitch: {
@@ -228,7 +228,7 @@ export const experiences: Record<string, Experience> = {
     description: `
     <ul>
   <li>Attended 40+ "startup spotlights", meeting founders from the UK's most exciting VC backed startups.</li>
-  <li>Received coaching around how start-ups operate along with professional development.</li>
+  <li>Received coaching around how start-ups operate along with professional development</li>
   <li>Took part in Jumpstart networking events, meeting talented students from different universities across the UK.</li>
 </ul>
     `,

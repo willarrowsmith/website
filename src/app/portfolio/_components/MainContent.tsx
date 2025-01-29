@@ -8,8 +8,8 @@ const featuredPlaylist: {
   imageUrl: string
 } = {
   id: 0,
-  name: "Hey Prophet Recruitment!",
-  description: "I would love to be part of the team! Here is a summary of my key skills and experiences.",
+  name: "Hey hiring team!",
+  description: "I'm excited about the chance to work with you. Here’s a snapshot of my skills and experiences.",
   imageUrl: "/will.jpg"
 } as const;
 
@@ -25,42 +25,42 @@ const playlists: {
     name: "Co-Founder, Product Manager",
     description: "PeerPitch",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PeerPitch-ntlm5UeqVfSKzy7lprEUp2La41pr9o.png",
-    href: "/palantir/peerpitch"
+    href: "/portfolio/peerpitch"
   },
   {
     id: 3,
     name: "Business Analyst & Pricing Manager (Data Center & AI)",
     description: "Intel",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Intel.jpg-EajCfst7cSVAnnSjbIooUdcqiHcj3y.jpeg",
-    href: "/palantir/intel"
+    href: "/portfolio/intel"
   },
   {
     id: 2,
     name: "Product Manager & UX Researcher",
     description: "MyExeter",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Exeter.jpg-I1POZ9XrjHpxC3juzWiTSUxhKtryKr.jpeg",
-    href: "/palantir/myexeter"
+    href: "/portfolio/myexeter"
   },
   { 
     id: 5, 
     name: "Managed Personal E-commerce Store", 
     description: "Depop",
     imageUrl: "/depop.jpg",
-    href: "/palantir/depop"
+    href: "/portfolio/depop"
   },
   { 
     id: 6, 
     name: "Cohort Member", 
     description: "Jumpstart",
     imageUrl: "/jumpstart1.jpg",
-    href: "/palantir/jumpstart"
+    href: "/portfolio/jumpstart"
   },
   {
     id: 4,
     name: "Coding",
     description: "Bright Network",
     imageUrl: "/bright.jpg",
-    href: "/palantir/bright"
+    href: "/portfolio/bright"
   }
   
  
@@ -83,7 +83,7 @@ export default function MainContent() {
             <h3 className="text-2xl font-bold mb-2">{featuredPlaylist.name}</h3>
             <p className="text-gray-300 mb-4">{featuredPlaylist.description}</p>
             <Link
-              href="/palantir/about"
+              href="/portfolio/about"
               className="bg-green-500 text-black font-semibold py-2 px-4 rounded-full hover:bg-green-400 transition-colors duration-200">
               About me
             </Link>

@@ -12,7 +12,7 @@ export default function Sidebar() {
         />
       </div>
       <nav className="space-y-4">
-        <Link href="/palantir" className="flex items-center space-x-2 text-gray-300 hover:text-white">
+        <Link href="/prophet" className="flex items-center space-x-2 text-gray-300 hover:text-white">
           <Home />
           <span>Home</span>
         </Link>

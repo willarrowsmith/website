@@ -1,6 +1,6 @@
-import ExperienceContent from "@/app/palantir/_components/ExperienceContent";
-import Sidebar from "@/app/palantir/_components/Sidebar";
-import { experiences } from "@/app/palantir/experience";
+import ExperienceContent from "@/app/prophet/_components/ExperienceContent";
+import Sidebar from "@/app/prophet/_components/Sidebar";
+import { experiences } from "@/app/prophet/experience";
 import { notFound } from "next/navigation";
  
 export async function generateStaticParams() {

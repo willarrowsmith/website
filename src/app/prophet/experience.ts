@@ -1,9 +1,9 @@
-import type { Experience } from "@/app/bendingspoons/_components/ExperienceContent";
+import type { Experience } from "@/app/prophet/_components/ExperienceContent";
 
 export const experiences: Record<string, Experience> = {
   peerpitch: {
     title: "Co-Founder, Product Manager",
-    company: "Ever had a project or idea but needed some help on a particular skillset and didn't know where to find it ? PeerPitch is here to bridge that gap. Think of it as a dating app but for skill-sharing and collaboration, connecting students with complementary talents to turn ideas into reality.",
+    company: "Ever had a project or idea but needed some help on a particular skillset and didn't know where to find it ? PeerPitch is here to bridge that gap. Think of it as a dating app but for skill-sharing and collaboration, connecting students with complementary talents to turn ideas into reality",
     description: `
     
     <ul>
@@ -37,7 +37,7 @@ export const experiences: Record<string, Experience> = {
       }
     ],
     skills: [
-      "Digital Product Strategy",
+      "Product Strategy",
       "Product Management",
       "User Research",
       "Agile Development",
@@ -95,8 +95,8 @@ export const experiences: Record<string, Experience> = {
     secondaryImage: "/arrows.jpg"
   },
   intel: {
-    title: "Pricing Manager and Business Analyst (Data Centre & AI)",
-    company: "I completed a 13-month placement at Intel within the Data Centre and AI team, where I served as a pricing manager and business analyst, overseeing pricing requests for Intel's Xeon data centre chips. Midway through my internship, I took on additional responsibilities as a product manager, managing the set of tools and systems used by EMEA pricing managers, driving efficiency and alignment in pricing operations.",
+    title: "Product Manager (Pricing Tools)",
+    company: "I completed a 13-month placement at Intel within the Data Centre and AI team, where I initially served as a pricing manager and business analyst, overseeing pricing requests for Intel's Xeon data centre chips. Midway through my internship, I took on additional responsibilities as a product manager, managing the set of tools and systems used by EMEA pricing managers, driving efficiency and alignment in pricing operations.",
     description: 
     `
     <ul>
@@ -228,17 +228,31 @@ export const experiences: Record<string, Experience> = {
     description: `
     <ul>
   <li>Attended 40+ "startup spotlights", meeting founders from the UK's most exciting VC backed startups.</li>
-  <li>Received coaching around how start-ups operate along with professional development.</li>
+  <li>Received coaching around how start-ups operate along with professional development</li>
   <li>Took part in Jumpstart networking events, meeting talented students from different universities across the UK.</li>
 </ul>
     `,
     timeline: [
-      
+      {
+        date: "Mar 2022",
+        learning: "Established store and developed brand identity"
+      },
+      {
+        date: "May 2022",
+        learning: "Achieved top seller status through consistent growth"
+      },
+      {
+        date: "Jul 2022",
+        learning: "Implemented automated inventory management system"
+      }
     ],
     skills: [
-      "Entrepreneurship",
-      "Start-up knowledge",
-      "Adaptability",
+      "E-commerce Management",
+      "Customer Service",
+      "Inventory Management",
+      "Digital Marketing",
+      "Photography",
+      "Social Media Strategy"
     ],
     mainImage: "/jumpstart.jpg",
     secondaryImage: "/loyle.jpg"

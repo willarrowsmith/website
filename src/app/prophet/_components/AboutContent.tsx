@@ -54,7 +54,7 @@ export default function AboutContent() {
               </p>
 
               <Link
-                href="/palantir"
+                href="/prophet"
                 className="inline-flex bg-green-500 text-black font-semibold py-2 px-4 rounded-full hover:bg-green-400 transition-colors duration-200"
               >
                 Back to Home

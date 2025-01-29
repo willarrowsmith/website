@@ -26,7 +26,7 @@ export default function ExperienceContent({ experience }: ExperienceContentProps
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-3xl font-bold">{experience.title}</h2>
           <Link
-            href="/palantir"
+            href="/prophet"
             className="bg-green-500 text-black font-semibold py-2 px-4 rounded-full hover:bg-green-400 transition-colors duration-200"
           >
             Back to Home
