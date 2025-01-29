@@ -12,7 +12,7 @@ export default function Sidebar() {
           <Home />
           <span>Home</span>
         </Link>
-        <Link href="palantir/about" className="flex items-center space-x-2 text-gray-300 hover:text-white">
+        <Link href="portfolio/about" className="flex items-center space-x-2 text-gray-300 hover:text-white">
           <User />
           <span>About Me</span>
         </Link>
