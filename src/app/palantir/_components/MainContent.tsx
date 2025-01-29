@@ -8,8 +8,8 @@ const featuredPlaylist: {
   imageUrl: string
 } = {
   id: 0,
-  name: "Hey Spotify Recruitment!",
-  description: "I would love to be part of the band! Here is my demo tape of skills and experiences.",
+  name: "Hey Palantir Recruitment!",
+  description: "I'm excited about the chance to work with you. Here’s a snapshot of my skills and experiences:",
   imageUrl: "/will.jpg"
 } as const;
 
