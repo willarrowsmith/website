@@ -59,7 +59,7 @@ const playlists: {
     id: 6, 
     name: "Cohort Member", 
     description: "Jumpstart",
-    imageUrl: "/Jumpstart1.jpg",
+    imageUrl: "/jumpstart1.jpg",
     href: "/palantir/jumpstart"
   },
   
