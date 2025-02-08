@@ -3,7 +3,7 @@ import type { Experience } from "@/app/palantir/_components/ExperienceContent";
 export const experiences: Record<string, Experience> = {
   peerpitch: {
     title: "Co-Founder, Product Designer",
-    company: "Ever had a project or idea but needed some help on a particular skillset and didn't know where to find it ? PeerPitch is here to bridge that gap. Think of it as a dating app but for skill-sharing and collaboration, connecting students with complementary talents to turn ideas into reality",
+    company: "Ever had a project or idea but needed some help on a particular skillset and didn't know where to find it ? PeerPitch is here to bridge that gap. Think of it as a dating app but for skill-sharing and collaboration, connecting students with complementary talents to turn ideas into reality.",
     description: `
     
     <ul>
