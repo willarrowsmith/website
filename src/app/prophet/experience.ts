@@ -149,7 +149,7 @@ export const experiences: Record<string, Experience> = {
   },
   depop: {
     title: "Managed Personal E-commerce Store",
-    company: "Managed a personal e-commerce store, buying and selling second hand branded clothing for profit. My stock was sourced from peer-to-pee e-commerce platforms and second hand clothing shops",
+    company: "Managed a personal e-commerce store, buying and selling second hand branded clothing for profit. My stock was sourced from peer-to-peer e-commerce platforms and second hand clothing shops.",
     description: 
     `
     <ul>
