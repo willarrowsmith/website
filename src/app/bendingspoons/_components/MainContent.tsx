@@ -22,7 +22,7 @@ const playlists: {
 }[] = [
   {
     id: 1,
-    name: "Co-Founder",
+    name: "Co-Founder, Product Manager",
     description: "PeerPitch",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PeerPitch-ntlm5UeqVfSKzy7lprEUp2La41pr9o.png",
     href: "/bendingspoons/peerpitch"
@@ -36,7 +36,7 @@ const playlists: {
   },
   {
     id: 3,
-    name: "Business Analyst and Pricing Manager (Data Center & AI)",
+    name: "Product Manager (Pricing Tools) and Business Analyst (Data Center & AI)",
     description: "Intel",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Intel.jpg-EajCfst7cSVAnnSjbIooUdcqiHcj3y.jpeg",
     href: "/bendingspoons/intel"

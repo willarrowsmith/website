@@ -95,7 +95,7 @@ export const experiences: Record<string, Experience> = {
     secondaryImage: "/arrows.jpg"
   },
   intel: {
-    title: "Product Designer (Pricing Tools)",
+    title: "Product Manager (Pricing Tools)",
     company: "I completed a 13-month placement at Intel within the Data Centre and AI team, where I initially served as a pricing manager and business analyst, overseeing pricing requests for Intel's Xeon data centre chips. Midway through my internship, I took on additional responsibilities as a product manager, managing the set of tools and systems used by EMEA pricing managers, driving efficiency and alignment in pricing operations.",
     description: 
     `
