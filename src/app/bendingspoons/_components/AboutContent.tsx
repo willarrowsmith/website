@@ -42,18 +42,18 @@ export default function AboutContent() {
             {/* About Text Content */}
             <div className="space-y-6">
               <p className="text-gray-300 leading-relaxed">
-              My name is Will Arrowsmith, and I’m a final-year Business Economics student at the University of Exeter. I’m an analytical and proactive problem solver with a passion for tackling complex challenges and a deep interest in digital innovation.
+              My name is Will Arrowsmith, and I’m a final-year Business Economics student at the University of Exeter. I’m an analytical and proactive problem solver with a passion for tackling complex challenges and a keen interest in digital innovation.
               </p>
 
               <p className="text-gray-300 leading-relaxed">
-              During my internship at Intel, I gained valuable experience analyzing financial data and providing clear, data-driven recommendations as part of the Data Centre and AI team. I enjoyed turning analysis into meaningful insights—a skill I am eager to develop further in the M&A Intern role at Bending Spoons. Working on deals involving leading digital products is particularly exciting, as it aligns my analytical skills with my enthusiasm for transformative technology.
+              During my internship at Intel, I gained valuable experience analysing financial data and providing clear, data-driven recommendations as part of the Data Centre and AI team. I particularly enjoyed transforming analysis into meaningful insights—a skill I am eager to develop further.
               </p>
 
               <p className="text-gray-300 leading-relaxed">
-              At university, I contributed to the development of MyExeter, the university’s student app, and created PeerPitch, a platform designed for skill-sharing and collaboration inspired by a dating app. I am fascinated by the evolution of digital tools, particularly advancements in AI, and actively follow emerging trends and players in the software space.
+              Since, I’ve helped Exeter University launch and improve their student app, "MyExeter", and created "PeerPitch", an app similar to a dating app but for skill-sharing and collaboration among students.
               </p>
               <p className="text-gray-300 leading-relaxed">
-              Outside of work, my interests include music, fitness, and cooking. I love challenging myself to learn new things. Recently, I’ve started producing music to further explore my love for the piano and have taken on the challenge of learning how to make sushi. I stay active through running, regular gym sessions, and playing Padel—a new favourite with me and my housemates !
+              Outside of work, my interests include music, fitness, and cooking. I love challenging myself to learn new things. I taught myself piano up to grade 7 using YouTube and have recently started producing music to further explore my passion. I have also been learning to code, using skills gained to build this website. I stay active through running, regular gym sessions, and playing Padel—a new favourite with me and my housemates !
               </p>
 
               <Link
